@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 771962061a379084eb69133b94c2ee37, type: 3}
+  m_Name: Tiles
+  m_EditorClassIdentifier: 
+  WaterTile: {fileID: 11400000, guid: 26335ff2fe550c545ace15d8c12c9ee9, type: 2}
+  grassTileSmall: {fileID: 11400000, guid: f576eaf56cc2f6348ac122d3389bf71d, type: 2}
+  grassTileMedium: {fileID: 11400000, guid: 02c41c3655332344f91606bf71ba3194, type: 2}
+  StoneTileLarge: {fileID: 11400000, guid: 629e8db78dc403742823c7ee5686718e, type: 2}
