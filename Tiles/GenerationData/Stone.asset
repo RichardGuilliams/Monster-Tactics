@@ -10,14 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4194a8c9ae3c9ff4596156c4da45357a, type: 3}
-  m_Name: Grass
+  m_Name: Stone
   m_EditorClassIdentifier: 
-  tileData: {fileID: 11400000, guid: 3d91fe6183ea53744a9cc53ee358c754, type: 2}
-  weight: 60
+  tileData: {fileID: 11400000, guid: aaf6bc91d397a2c46bbf7664847c96fa, type: 2}
+  weight: 12
   possibleTiles:
-  - tile: {fileID: 11400000}
-    weight: 60
-    direction: 00000000010000000200000003000000
+  - tile: {fileID: 11400000, guid: df794b4f2e3c82f4c865d6000cc7cfa0, type: 2}
+    weight: 0
+    direction: 
   - tile: {fileID: 11400000, guid: ada24cb841a9771408ae6dcbda671c5e, type: 2}
-    weight: 60
-    direction: 00000000010000000200000003000000
+    weight: 0
+    direction: 
+  - tile: {fileID: 11400000}
+    weight: 0
+    direction: 
