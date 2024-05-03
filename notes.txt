@@ -1,0 +1,4 @@
+We need an abstract class for the wfc called constraint that acts as the constraint
+data and execution functionality.
+The class will be called Constraint and it will have an execute function that will execute its
+unique adjustments of the wfc generator and cell.

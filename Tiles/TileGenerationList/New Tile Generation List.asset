@@ -12,13 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92e93b65c5a489a4db9a5d51c11413ee, type: 3}
   m_Name: New Tile Generation List
   m_EditorClassIdentifier: 
-  possibleTiles:
+  possibleGenerationTiles:
   - tile: {fileID: 11400000, guid: df794b4f2e3c82f4c865d6000cc7cfa0, type: 2}
-    weight: 0
+    weight: 3
     direction: 
   - tile: {fileID: 11400000, guid: ada24cb841a9771408ae6dcbda671c5e, type: 2}
-    weight: 0
+    weight: 3
+    direction: 
+  - tile: {fileID: 11400000, guid: 8c7868cee0e41864e85249819906dee4, type: 2}
+    weight: 1
     direction: 
   tileGenerationList:
   - {fileID: 11400000, guid: df794b4f2e3c82f4c865d6000cc7cfa0, type: 2}
   - {fileID: 11400000, guid: ada24cb841a9771408ae6dcbda671c5e, type: 2}
+  - {fileID: 11400000, guid: 8c7868cee0e41864e85249819906dee4, type: 2}

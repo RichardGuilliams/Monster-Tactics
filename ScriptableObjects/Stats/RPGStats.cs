@@ -12,6 +12,7 @@ public class Stats : ScriptableObject
     public int def;
     public int exp;
     public int level;
+    public int wis;
     public int weight;
     public int stamina;
     public int torpidity;
@@ -41,5 +42,4 @@ public enum Types{
     Air,
     Electric,
     Ice
-
 }
